@@ -15,7 +15,9 @@ The objective of this project is to build an intelligent fraud detection system 
 ---
 
 ## Dataset
-
+The dataset used in this project is too large to be uploaded to GitHub (250 MB).
+You can download it from Kaggle:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 * Dataset Name: Credit Card Fraud Detection Dataset
 * Total Records: 93,181+
 * File Format: CSV
@@ -102,6 +104,57 @@ Random Forest achieved the highest overall performance and was selected as the f
 
 ---
 
+## Results
+
+The performance of the machine learning models developed in this project is summarized below.
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | 99.89% |
+| Decision Tree | 99.92% |
+| Random Forest | 99.96% |
+
+Among all the implemented models, **Random Forest** achieved the highest accuracy and provided the best overall performance for detecting fraudulent financial transactions.
+
+---
+
+## Project Visualizations
+
+### Transaction Amount Distribution (Histogram)
+
+
+
+---
+
+### Correlation Heatmap
+
+<img width="1227" height="1030" alt="HEATMAP" src="https://github.com/user-attachments/assets/23792175-d7ef-45f1-a155-b2342ae31fed" />
+
+
+---
+
+### Boxplot Before Outlier Removal
+
+<img width="658" height="393" alt="BOXPLOT" src="https://github.com/user-attachments/assets/6725c658-788a-49a4-ab6a-cf4b5d099493" />
+
+
+---
+
+### Boxplot After Outlier Removal
+
+<img width="658" height="393" alt="BOXPLOT2" src="https://github.com/user-attachments/assets/143ebf2f-ab0a-4c4b-8389-a2bd1981e6e6" />
+
+
+
+---
+
+### Machine Learning Model Accuracy Comparison
+
+<img width="691" height="470" alt="Accuracy comparison" src="https://github.com/user-attachments/assets/88e7a145-c484-4cc2-ad7d-366f32e8edc0" />
+
+
+---
+
 ## Project Structure
 
 ```
@@ -109,22 +162,14 @@ Financial-Fraud-Detection-Using-Machine-Learning/
 
 │
 
-├── Dataset/
-│     └── creditcard.csv
-│
-├── Images/
-│     ├── histogram.png
-│     ├── boxplot.png
-│     ├── heatmap.png
-│     └── accuracy_graph.png
-│
+├── Accuracy comparison.png
+├── BOXPLOT.png
+├── BOXPLOT2.png
+├── HEATMAP.png
+├── HIST.png
 ├── Financial_Fraud_Detection_Using_Machine_Learning.ipynb
-│
 ├── README.md
-│
-├── requirements.txt
-│
-└── LICENSE
+└── requirements.txt
 ```
 ---
 
@@ -139,6 +184,13 @@ This project successfully demonstrates how Machine Learning can be applied to id
 **Vivek Gautam**
 
 B.Tech CSE (Data Science)
+
+**Internship:** IBM PBEL AI Internship
+
+**Algorithms Used:**
+- Logistic Regression
+- Decision Tree
+- Random Forest
 
 GitHub: https://github.com/vivekofficial0407-create
 
